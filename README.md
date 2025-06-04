@@ -38,3 +38,12 @@ estate/
 git clone https://github.com/MadhushanSathsara/alfa-lands.git
 cd estate
 ```
+
+
+---
+### 2. Install frontend dependencies
+
+```bash
+npm install
+```
+
