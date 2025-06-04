@@ -55,5 +55,37 @@ npm run dev
 The frontend will be available at:
 ➡️ http://localhost:5173/
 
+### 4. Set up the backend
+1.Install XAMPP if not already: https://www.apachefriends.org/
+
+2.Move the project to your XAMPP htdocs folder:
+
+```makefile
+C:\xampp\htdocs\estate
+```
+3.Start Apache and MySQL from the XAMPP Control Panel.
+
+4.Access backend API via:
+
+```bash
+http://localhost/estate/Backend/api/
+
+```
+### 5. Import the MySQL database
+
+1.Open http://localhost/phpmyadmin
+
+2.Create a new database: estate
+
+3.Click Import tab
+
+4.Choose the file:
+    
+ ```bash
+db/estate.sql
+ ```
+5.Click Go to import the database.
+    
+
 
 
