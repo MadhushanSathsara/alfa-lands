@@ -85,6 +85,16 @@ http://localhost/estate/Backend/api/
 db/estate.sql
  ```
 5.Click Go to import the database.
+
+### 6. Update PHP config (if needed)
+Make sure your PHP files in /Backend/api point to the correct database name and credentials in db.php:
+
+```php
+$host = "localhost";
+$username = "root";
+$password = "";
+$dbname = "estate_db"; // This must match your imported DB
+```
     
 
 
