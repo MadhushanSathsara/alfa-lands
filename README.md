@@ -14,19 +14,7 @@ This is a full-stack real estate management system developed using **React (Vite
 ---
 
 ## 📁 Folder Structure
-estate/
-├── Backend/ ← PHP API files
-│ └── api/
-│ └── *.php ← All backend PHP files (CRUD, auth, image upload, etc.)
-├── db/
-│ └── estate_db.sql ← MySQL database dump file
-├── public/ ← Public assets
-├── src/ ← React frontend components
-├── .gitignore
-├── README.md
-├── package.json
-├── vite.config.js
-
+<pre> ```bash estate/ ├── Backend/ ← PHP API files │ └── api/ │ └── *.php ← All backend PHP files (CRUD, auth, image upload, etc.) ├── db/ │ └── estate_db.sql ← MySQL database dump file ├── public/ ← Public assets (favicons, etc.) ├── src/ ← React frontend components │ ├── assets/ │ ├── components/ │ └── App.jsx ├── .gitignore ├── README.md ├── package.json ├── vite.config.js ``` </pre>
 
 ---
 
