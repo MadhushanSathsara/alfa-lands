@@ -96,7 +96,8 @@ $password = "";
 $dbname = "estate"; 
 ```
 
-📸 Features
+
+## 📸 Features
 - Admin & agent login
 
 - Add/Edit/Delete properties with images
@@ -109,10 +110,12 @@ $dbname = "estate";
 
 - Professional UI with payment plans, facility icons, and detailed property descriptions
 
-🚀 Deployment Note
+
+## 🚀 Deployment Note
 This project is built for local development using XAMPP. For live hosting, backend and DB must be deployed on a PHP-supported server (e.g., cPanel, Laravel Forge, or VPS).
 
-🤝 Author
+
+## 🤝 Author
 - Developed by Sathsara
 
 - GitHub: MadhushanSathsara
