@@ -93,8 +93,32 @@ Make sure your PHP files in /Backend/api point to the correct database name and 
 $host = "localhost";
 $username = "root";
 $password = "";
-$dbname = "estate_db"; // This must match your imported DB
+$dbname = "estate"; 
 ```
+
+📸 Features
+- Admin & agent login
+
+- Add/Edit/Delete properties with images
+
+- Upload multiple property images
+
+- Agent profile and team management
+
+- User can contact agents (messages stored in DB)
+
+- Professional UI with payment plans, facility icons, and detailed property descriptions
+
+🚀 Deployment Note
+This project is built for local development using XAMPP. For live hosting, backend and DB must be deployed on a PHP-supported server (e.g., cPanel, Laravel Forge, or VPS).
+
+🤝 Author
+- Developed by Sathsara
+
+- GitHub: MadhushanSathsara
+
+
+
     
 
 
