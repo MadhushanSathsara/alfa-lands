@@ -51,9 +51,9 @@ npm install
 ```bash
 npm run dev
 
+```
 The frontend will be available at:
 ➡️ http://localhost:5173/
-```
 
 
 
