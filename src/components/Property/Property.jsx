@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Property1.css';
@@ -9,10 +10,10 @@ const Property = () => {
   const [dealsData, setDealsData] = useState([]);
 
   useEffect(() => {
-    fetch('https://alfareal.wuaze.com/get_properties.php')
+    fetch('http://localhost/estate/Backend/api/get_properties.php')
       .then(res => res.json())
-      .then(data => setDealsData(data.slice(0, 10)))
-      .catch(err => console.error("Failed to load properties:", err));
+      .then(data => setDealsData(data.slice(0, 10))) // ✅ Only take first 8 items
+      .catch(err => console.error(err));
   }, []);
 
   return (
@@ -34,6 +35,7 @@ const Property = () => {
                 </div>
                 <div className="location"><IoLocateOutline /> <span>{deal.property_address}</span></div>
                 <p className="price">LKR {parseFloat(deal.property_price).toLocaleString()}</p>
+                
               </div>
             </div>
           </Link>
@@ -49,4 +51,4 @@ const Property = () => {
   );
 };
 
-export default Property;
+export default Property; 
