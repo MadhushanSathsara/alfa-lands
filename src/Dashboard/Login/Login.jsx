@@ -12,11 +12,12 @@ const Login = () => {
     e.preventDefault();
 
     try {
-     const response = await fetch('https://alfareal.wuaze.com/login.php', {
+     const response = await fetch('http://localhost/estate/Backend/api/authenticate.php', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ username, password })
       });
+
 
       const data = await response.json();
 
